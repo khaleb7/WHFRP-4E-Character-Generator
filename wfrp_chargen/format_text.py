@@ -18,6 +18,7 @@ def format_character(ch: GeneratedCharacter, include_portrait: bool = True) -> s
     lines: list[str] = []
     lines.append("=" * 72)
     lines.append(_ascii_console(f"Name: {ch.name}"))
+    lines.append(_ascii_console(f"Gender: {ch.gender}"))
     lines.append(_ascii_console(f"Species: {ch.species}   Career: {ch.career} ({ch.career_class})"))
     lines.append(_ascii_console(f"Status: {ch.status}"))
     lines.append("-" * 72)

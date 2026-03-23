@@ -26,6 +26,12 @@ def main() -> int:
         action="store_true",
         help="Print only NightCafe positive and negative prompts (no full character sheet)",
     )
+    parser.add_argument(
+        "--gender",
+        choices=("woman", "man", "nonbinary"),
+        default=None,
+        help="Force character gender (default: random; names from Faker align when possible)",
+    )
     args = parser.parse_args()
 
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -35,16 +41,25 @@ def main() -> int:
         merge_extra_pack(core, ep)
 
     rng = random.Random(args.seed)
-    name = None
+    gender = args.gender
+    if gender is None:
+        gender = rng.choices(["woman", "man", "nonbinary"], weights=[42, 42, 16], k=1)[0]
+
+    name = "Unnamed"
     try:
         from faker import Faker
 
         fake = Faker("de_DE")
-        name = f"{fake.first_name()} {fake.last_name()}"
+        if gender == "woman":
+            name = f"{fake.first_name_female()} {fake.last_name()}"
+        elif gender == "man":
+            name = f"{fake.first_name_male()} {fake.last_name()}"
+        else:
+            name = f"{fake.first_name()} {fake.last_name()}"
     except Exception:
-        name = "Unnamed"
+        pass
 
-    ch = generate_character(core, rng=rng, name=name)
+    ch = generate_character(core, rng=rng, name=name, gender=gender)
     if args.portrait_only:
         from wfrp_chargen.portrait_prompt import format_nightcafe_block
 
@@ -56,6 +71,7 @@ def main() -> int:
 
         payload = {
             "name": ch.name,
+            "gender": ch.gender,
             "species": ch.species,
             "career": ch.career,
             "career_class": ch.career_class,

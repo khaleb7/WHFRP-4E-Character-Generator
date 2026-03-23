@@ -21,7 +21,10 @@ python -m wfrp_chargen --seed 42 --json
 ```bash
 python -m wfrp_chargen --portrait-only --seed 1    # prompts only, easy to copy-paste
 python -m wfrp_chargen --no-portrait             # full sheet without portrait block
+python -m wfrp_chargen --gender woman            # force gender (man / woman / nonbinary); Faker names align
 ```
+
+Portrait prompts spell out **gender**, list **trappings** in labeled layers (base kit vs career gear), and set a **background** tied to **career class** (Academics, Burghers, …) and **Brass / Silver / Gold** parsed from status so the scene matches social station.
 
 JSON includes `nightcafe_portrait_prompt` and `nightcafe_negative_prompt` unless `--no-portrait` is set. Customize wording in [`wfrp_chargen/portrait_prompt.py`](wfrp_chargen/portrait_prompt.py).
 

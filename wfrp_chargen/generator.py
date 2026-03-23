@@ -23,6 +23,7 @@ CHAR_ORDER = ["WS", "BS", "S", "T", "I", "Ag", "Dex", "Int", "WP", "Fel"]
 @dataclass
 class GeneratedCharacter:
     name: str
+    gender: str
     species: str
     career: str
     career_class: str
@@ -136,8 +137,18 @@ def generate_character(
     core: CoreData,
     rng: random.Random | None = None,
     name: str | None = None,
+    gender: str | None = None,
 ) -> GeneratedCharacter:
     rng = rng or random.Random()
+    if gender is None:
+        gender = rng.choices(
+            ["woman", "man", "nonbinary"],
+            weights=[42, 42, 16],
+            k=1,
+        )[0]
+    gender = str(gender).lower().strip()
+    if gender not in ("woman", "man", "nonbinary"):
+        gender = "nonbinary"
     species_name = _roll_species(core, rng)
     spec = core.species[species_name]
     career_name, career_class, base_trappings = _career_from_table(core, species_name, rng)
@@ -232,6 +243,7 @@ def generate_character(
     display_name = name or "Unnamed"
     ch = GeneratedCharacter(
         name=display_name,
+        gender=gender,
         species=species_name,
         career=career_name,
         career_class=career_class,

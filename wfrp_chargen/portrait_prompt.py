@@ -1,8 +1,8 @@
 """
 Build NightCafe-friendly text prompts for character portraits from chargen output.
 
-NightCafe / SD-style prompts work well with: subject + setting + style + quality tokens,
-comma-separated. See README for suggested negative prompts.
+NightCafe / SD-style prompts work well with: subject + gender + trappings + background + style.
+See README for suggested negative prompts.
 """
 from __future__ import annotations
 
@@ -14,17 +14,15 @@ if TYPE_CHECKING:
 
 from wfrp_chargen.dice import bonus_tens
 
-
-# Species -> short visual descriptors (Old World / WFRP tone)
-_SPECIES_BITS: dict[str, str] = {
-    "Human (Reiklander)": "human, adult, Reikland Empire citizen, medieval Germanic fantasy",
-    "Dwarf": "fantasy dwarf, stocky broad build, thick beard, dwarf proportions",
-    "Halfling": "halfling, small stature, round friendly features, hairy feet, cozy rustic",
-    "High Elf": "high elf, tall slender, pointed ears, elegant aloof bearing, Ulthuan aesthetic",
-    "Wood Elf": "wood elf, pointed ears, wild forest ranger look, weathered, Athel Loren",
+# Species -> fragment used after gender (when not using full human line)
+_SPECIES_SUBJECT: dict[str, str] = {
+    "Human (Reiklander)": "Reiklander human",
+    "Dwarf": "dwarf",
+    "Halfling": "halfling",
+    "High Elf": "high elf",
+    "Wood Elf": "wood elf",
 }
 
-# Talents that suggest visible traits (name substring match, lowercased)
 _TALENT_VISUAL_HINTS: list[tuple[str, str]] = [
     ("attractive", "striking pleasant features"),
     ("acute sense (sight)", "sharp perceptive eyes"),
@@ -43,8 +41,61 @@ _TALENT_VISUAL_HINTS: list[tuple[str, str]] = [
     ("artistic", "creative refined appearance"),
 ]
 
+# career_class -> wealth tier -> background (environment matches social station)
+_CLASS_BACKDROP: dict[str, dict[str, str]] = {
+    "Academics": {
+        "brass": "cramped garret study, chipped desk, single tallow candle, cheap parchment, plaster cracks",
+        "silver": "respectable townhouse study, filled bookshelves, inkwell and quill, tall window with city view",
+        "gold": "grand library or collegiate hall, marble or carved wood, tall windows, lectern, scholarly opulence",
+        "unknown": "quiet interior with books, writing tools, and academic clutter",
+    },
+    "Burghers": {
+        "brass": "crowded workshop or market stall corner, tools and sawdust, worn timber, busy street glimpsed",
+        "silver": "merchant house room, counting desk, scales, ledger, neat bourgeois order",
+        "gold": "guild hall or fine shop interior, carved wood, brass fixtures, prosperity on display",
+        "unknown": "urban Reikland interior, trade and craft cues, modest prosperity",
+    },
+    "Courtiers": {
+        "brass": "servants' passage or modest court outbuilding, plain livery hook, unadorned stone",
+        "silver": "antechamber with modest heraldic motif, polished floor, waiting bench",
+        "gold": "palace gallery or ballroom edge, marble, painted ceiling, banners and heraldry, aristocratic splendor",
+        "unknown": "courtly interior suggesting rank without extreme wealth",
+    },
+    "Peasants": {
+        "brass": "mud-flecked village lane, thatched roofs blurred behind, subsistence rural poverty",
+        "silver": "village square or better croft, cleaner timber, small garden or well",
+        "gold": "prosperous farmstead porch or bailiff's timber hall, well-kept rural wealth",
+        "unknown": "Old World rural backdrop, fields or village, honest soil and weather",
+    },
+    "Rangers": {
+        "brass": "campfire embers, rolled bedroll, forest edge at dusk, mud on boots",
+        "silver": "roadside post or toll shelter, maintained gear rack, cleared path visible",
+        "gold": "captain's tent flap or warden lodge, maps, quality leather, command of the wilds",
+        "unknown": "wilderness margin, road or trail, travel kit and weathered gear",
+    },
+    "Riverfolk": {
+        "brass": "slick river dock planks, coiled rope, river mist, tar and timber",
+        "silver": "wharf office or boatyard shed, tariff slate, oars and tackle orderly",
+        "gold": "river guild or pilot house interior, brass instruments, paneled walls, river wealth",
+        "unknown": "Reikland riverfront atmosphere, water and wood, labor and tide",
+    },
+    "Rogues": {
+        "brass": "narrow rain-slick alley, weak torch, broken cobbles, criminal desperation",
+        "silver": "back-room parlor, gaming table, velvet worn at edges, respectable vice",
+        "gold": "well-appointed study with a crooked smile, stolen luxuries hinted, urbane crime",
+        "unknown": "urban shadows, Old World city grit, closed doors and secrets",
+    },
+    "Warriors": {
+        "brass": "militia yard or levy field, practice post, mud, cheap arms rack",
+        "silver": "stone barracks interior, clean kit lines, regimented order",
+        "gold": "knight's hall or officer pavilion silk, ancestral shield on wall, command presence",
+        "unknown": "military or martial backdrop, steel and discipline, Empire soldiery",
+    },
+}
+
 _DEFAULT_STYLE = (
-    "character portrait, bust and shoulders, facing viewer, "
+    "character portrait, bust and shoulders, subject in foreground sharp, "
+    "background softly focused but readable, "
     "Warhammer Fantasy Old World, grimdark low fantasy, "
     "detailed face, cinematic lighting, "
     "oil painting style, historical fantasy illustration, "
@@ -53,27 +104,90 @@ _DEFAULT_STYLE = (
 
 _DEFAULT_NEGATIVE = (
     "anime, cartoon, chibi, child, modern clothing, sci-fi, clean studio photo, "
-    "oversaturated, watermark, text, logo, extra limbs, deformed hands"
+    "oversaturated, watermark, text, logo, extra limbs, deformed hands, "
+    "blank white background, plain backdrop"
 )
 
 
-def _species_line(species: str) -> str:
-    return _SPECIES_BITS.get(species, species.replace("(", "").replace(")", ""))
+def _parse_wealth_tier(status: str) -> str:
+    u = status.upper()
+    if "GOLD" in u:
+        return "gold"
+    if "SILVER" in u:
+        return "silver"
+    if "BRASS" in u:
+        return "brass"
+    return "unknown"
 
 
-def _career_line(career: str, career_class: str) -> str:
-    return f"profession: {career}, {career_class} class, Reikland / Old World setting"
+def _social_class_background(career_class: str, status: str) -> str:
+    tier = _parse_wealth_tier(status)
+    by_class = _CLASS_BACKDROP.get(career_class)
+    if not by_class:
+        return (
+            f"background environment reflecting {career_class} station and Old World society, "
+            f"wealth hint from status: {status or 'unspecified'}"
+        )
+    line = by_class.get(tier) or by_class.get("unknown", "")
+    status_bit = _asciiish(status.strip()) if status.strip() else "ordinary station"
+    return (
+        f"BACKGROUND (match social class): {line}. "
+        f"Overall tone fits Empire status '{status_bit}' — environment must not look wealthier than their tier."
+    )
 
 
-def _status_line(status: str) -> str:
-    s = status.strip()
-    if not s:
-        return ""
-    return f"social station and dress: {s}"
+def _gender_species_subject(gender: str, species: str) -> str:
+    g = (gender or "nonbinary").lower().strip()
+    if g not in ("woman", "man", "nonbinary"):
+        g = "nonbinary"
+    sp = _SPECIES_SUBJECT.get(species, species.replace("(", "").replace(")", "").strip().lower())
+
+    if species == "Dwarf":
+        if g == "woman":
+            return (
+                "SUBJECT: portrait of an adult dwarf woman, fantasy dwarf anatomy, "
+                "facial hair or braided beard as you prefer for dwarf women, sturdy features"
+            )
+        if g == "man":
+            return "SUBJECT: portrait of an adult dwarf man, full thick beard, fantasy dwarf anatomy, sturdy features"
+        return (
+            "SUBJECT: portrait of an adult dwarf, androgynous or ambiguous gender presentation, "
+            "fantasy dwarf anatomy, styled facial hair optional"
+        )
+
+    if species == "Halfling":
+        if g == "woman":
+            return "SUBJECT: portrait of an adult female halfling, small stature, warm homely features, hairy feet implied"
+        if g == "man":
+            return "SUBJECT: portrait of an adult male halfling, small stature, cheerful rustic features, hairy feet implied"
+        return "SUBJECT: portrait of an adult halfling, androgynous presentation, small stature, rustic halfling features"
+
+    if species == "High Elf":
+        if g == "woman":
+            return "SUBJECT: portrait of an adult high elf woman, pointed ears, tall elegant features, aloof Ulthuan bearing"
+        if g == "man":
+            return "SUBJECT: portrait of an adult high elf man, pointed ears, tall elegant features, aloof Ulthuan bearing"
+        return "SUBJECT: portrait of an adult high elf, androgynous elegant features, pointed ears"
+
+    if species == "Wood Elf":
+        if g == "woman":
+            return "SUBJECT: portrait of an adult wood elf woman, pointed ears, weathered forest ranger beauty"
+        if g == "man":
+            return "SUBJECT: portrait of an adult wood elf man, pointed ears, weathered forest ranger look"
+        return "SUBJECT: portrait of an adult wood elf, androgynous wild features, pointed ears"
+
+    # Human (Reiklander)
+    if g == "woman":
+        return "SUBJECT: portrait of an adult Reiklander human woman, Empire citizen, medieval Germanic fantasy"
+    if g == "man":
+        return "SUBJECT: portrait of an adult Reiklander human man, Empire citizen, medieval Germanic fantasy"
+    return (
+        "SUBJECT: portrait of an adult Reiklander human, androgynous gender presentation, "
+        "Empire citizen, medieval Germanic fantasy"
+    )
 
 
 def _stats_appearance(ch: "GeneratedCharacter") -> str:
-    """Rough physique/expression from characteristic bonuses (fantasy shorthand)."""
     parts: list[str] = []
     sb = bonus_tens(ch.characteristics["S"])
     tb = bonus_tens(ch.characteristics["T"])
@@ -108,20 +222,42 @@ def _stats_appearance(ch: "GeneratedCharacter") -> str:
 
     if not parts:
         parts.append("average build for their kind")
-    return ", ".join(parts)
+    return "face and body: " + ", ".join(parts)
 
 
-def _trappings_visual(trappings: list[str]) -> str:
+def _clean_trapping_text(s: str) -> str:
+    raw = _asciiish(s.strip())
+    raw = re.sub(r"\b\d+d\d+\b", "several", raw, flags=re.I)
+    raw = re.sub(r"\s+", " ", raw).strip()
+    return raw
+
+
+def _trappings_detailed(trappings: list[str]) -> str:
+    """Explicit trapping list for the image model — class gear vs career gear."""
     if not trappings:
         return ""
-    raw = "; ".join(trappings)
-    raw = _asciiish(raw)
-    # Keep prompt length reasonable; strip dice notation clutter
-    raw = re.sub(r"\b\d+d\d+\b", "some", raw, flags=re.I)
-    raw = re.sub(r"\s+", " ", raw).strip()
-    if len(raw) > 320:
-        raw = raw[:317] + "..."
-    return f"visible gear and clothing: {raw}"
+    labels = [
+        "CLOTHING AND BASE KIT (species or starting class)",
+        "CAREER TRAPPINGS AND TOOLS (clearly worn, held, or strapped on)",
+    ]
+    parts: list[str] = []
+    for i, raw in enumerate(trappings):
+        lab = labels[i] if i < len(labels) else f"ADDITIONAL GEAR ({i + 1})"
+        cleaned = _clean_trapping_text(raw)
+        if not cleaned:
+            continue
+        parts.append(f"{lab}: {cleaned}")
+    if not parts:
+        return ""
+    joined = ". ".join(parts)
+    max_len = 900
+    if len(joined) > max_len:
+        joined = joined[: max_len - 3] + "..."
+    return (
+        "TRAPPINGS (render faithfully, not generic fantasy armor): "
+        + joined
+        + ". Every trapping listed should appear in the frame or on the body."
+    )
 
 
 def _asciiish(s: str) -> str:
@@ -142,7 +278,9 @@ def _talent_visuals(talents: list[str]) -> str:
                 if hint not in hints:
                     hints.append(hint)
                 break
-    return ", ".join(hints)
+    if not hints:
+        return ""
+    return "notable appearance from talents: " + ", ".join(hints)
 
 
 def nightcafe_portrait_prompt(ch: "GeneratedCharacter") -> dict[str, str]:
@@ -150,23 +288,21 @@ def nightcafe_portrait_prompt(ch: "GeneratedCharacter") -> dict[str, str]:
     Return NightCafe-oriented strings: ``prompt`` (main positive) and ``negative_prompt``.
     """
     chunks: list[str] = [
-        _species_line(ch.species),
-        _career_line(ch.career, ch.career_class),
+        _gender_species_subject(ch.gender, ch.species),
+        _social_class_background(ch.career_class, ch.status),
+        _trappings_detailed(ch.trappings),
+        f"profession: {ch.career}, {ch.career_class} class, Reikland / Old World",
         _stats_appearance(ch),
     ]
-    st = _status_line(ch.status)
-    if st:
-        chunks.append(st)
+    if ch.status.strip():
+        chunks.append(f"in-world rank title: {_asciiish(ch.status.strip())}")
     tv = _talent_visuals(ch.talents)
     if tv:
         chunks.append(tv)
-    trap = _trappings_visual(ch.trappings)
-    if trap:
-        chunks.append(trap)
-    chunks.append(f"named character concept: {ch.name}")
+    chunks.append(f"character name (concept only, do not paint text): {ch.name}")
     chunks.append(_DEFAULT_STYLE)
 
-    prompt = ", ".join(c for c in chunks if c)
+    prompt = ". ".join(c for c in chunks if c)
     return {
         "prompt": prompt,
         "negative_prompt": _DEFAULT_NEGATIVE,
