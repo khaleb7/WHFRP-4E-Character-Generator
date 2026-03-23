@@ -1,0 +1,169 @@
+{
+  "merge_policy": "by_species_name",
+  "species_roll": [
+    {"d100_from": 1, "d100_to": 90, "species": "Human (Reiklander)"},
+    {"d100_from": 91, "d100_to": 94, "species": "Dwarf"},
+    {"d100_from": 95, "d100_to": 98, "species": "Halfling"},
+    {"d100_from": 99, "d100_to": 99, "species": "High Elf"},
+    {"d100_from": 100, "d100_to": 100, "species": "Wood Elf"}
+  ],
+  "species": {
+    "Human (Reiklander)": {
+      "modifiers": {"WS": 0, "BS": 0, "S": 0, "T": 0, "I": 0, "Ag": 0, "Dex": 0, "Int": 0, "WP": 0, "Fel": 0},
+      "movement": 4,
+      "initiative_bonus": 0,
+      "fate": 3,
+      "resilience": 3,
+      "wounds": {"formula": "sb_plus_2tb_plus_wpb", "flat_adjust": 0},
+      "skills": [
+        "Animal Care",
+        "Charm",
+        "Command",
+        "Cool",
+        "Evaluate",
+        "Haggle",
+        "Gossip",
+        "Language (Bretonnian)",
+        "Language (Wastelander)",
+        "Lore (Reikland)",
+        "Melee (Basic)",
+        "Ranged (Bow)"
+      ],
+      "skill_allocation": {"plus5_advances": 3, "plus3_advances": 3, "advance_step_percent": 3},
+      "talents": [
+        {"fixed": "Doomed"},
+        {"choose_one": ["Savvy", "Suave"]},
+        {"random_table": "core_random_talents", "count": 3}
+      ],
+      "source": "core"
+    },
+    "Dwarf": {
+      "modifiers": {"WS": 10, "BS": 0, "S": 0, "T": 10, "I": 0, "Ag": -10, "Dex": 10, "Int": 0, "WP": 20, "Fel": -10},
+      "movement": 3,
+      "initiative_bonus": 0,
+      "fate": 2,
+      "resilience": 2,
+      "wounds": {"formula": "sb_plus_2tb_plus_wpb", "flat_adjust": 2},
+      "skills": [
+        "Consume Alcohol",
+        "Cool",
+        "Endurance",
+        "Entertain (Storytelling)",
+        "Evaluate",
+        "Intimidate",
+        "Language (Khazalid)",
+        "Lore (Dwarfs)",
+        "Lore (Geology)",
+        "Lore (Metallurgy)",
+        "Melee (Basic)",
+        "Trade (Any)"
+      ],
+      "skill_allocation": {"plus5_advances": 3, "plus3_advances": 3, "advance_step_percent": 3},
+      "talents": [
+        {"note": "Apply characteristic modifiers above (already applied to stats)."},
+        {"fixed": "Magic Resistance"},
+        {"fixed": "Night Vision"},
+        {"choose_one": ["Read/Write", "Relentless"]},
+        {"choose_one": ["Resolute", "Strong-minded"]},
+        {"fixed": "Sturdy"}
+      ],
+      "source": "core"
+    },
+    "Halfling": {
+      "modifiers": {"WS": -10, "BS": 10, "S": -10, "T": 0, "I": 0, "Ag": 0, "Dex": 10, "Int": 0, "WP": 10, "Fel": 10},
+      "movement": 3,
+      "initiative_bonus": 0,
+      "fate": 2,
+      "resilience": 2,
+      "wounds": {"formula": "sb_plus_2tb_plus_wpb", "flat_adjust": 0, "subtract_strength_bonus": true},
+      "skills": [
+        "Charm",
+        "Consume Alcohol",
+        "Dodge",
+        "Gamble",
+        "Haggle",
+        "Intuition",
+        "Language (Mootish)",
+        "Lore (Reikland)",
+        "Perception",
+        "Sleight of Hand",
+        "Stealth (Any)",
+        "Trade (Cook)"
+      ],
+      "skill_allocation": {"plus5_advances": 3, "plus3_advances": 3, "advance_step_percent": 3},
+      "talents": [
+        {"note": "Apply characteristic modifiers; Small also reduces starting Wounds by Strength Bonus (handled in wounds)."},
+        {"fixed": "Acute Sense (Taste)"},
+        {"fixed": "Night Vision"},
+        {"fixed": "Resistance (Chaos)"},
+        {"fixed": "Small"},
+        {"random_table": "core_random_talents", "count": 2}
+      ],
+      "source": "core"
+    },
+    "High Elf": {
+      "modifiers": {"WS": 10, "BS": 10, "S": 0, "T": 0, "I": 20, "Ag": 10, "Dex": 10, "Int": 10, "WP": 20, "Fel": 0},
+      "movement": 5,
+      "initiative_bonus": 20,
+      "fate": 1,
+      "resilience": 2,
+      "wounds": {"formula": "sb_plus_2tb_plus_wpb", "flat_adjust": 0},
+      "skills": [
+        "Cool",
+        "Entertain (Sing)",
+        "Evaluate",
+        "Language (Eltharin)",
+        "Leadership",
+        "Melee (Basic)",
+        "Navigation",
+        "Perception",
+        "Play (Any)",
+        "Ranged (Bow)",
+        "Sail",
+        "Swim"
+      ],
+      "skill_allocation": {"plus5_advances": 3, "plus3_advances": 3, "advance_step_percent": 3},
+      "talents": [
+        {"note": "Apply characteristic modifiers (includes Initiative bonus as initiative_bonus field)."},
+        {"fixed": "Acute Sense (Sight)"},
+        {"choose_one": ["Coolheaded", "Savvy"]},
+        {"fixed": "Night Vision"},
+        {"choose_one": ["Second Sight", "Sixth Sense"]},
+        {"fixed": "Read/Write"}
+      ],
+      "source": "core"
+    },
+    "Wood Elf": {
+      "modifiers": {"WS": 10, "BS": 10, "S": 0, "T": 0, "I": 20, "Ag": 10, "Dex": 10, "Int": 10, "WP": 20, "Fel": 0},
+      "movement": 5,
+      "initiative_bonus": 20,
+      "fate": 1,
+      "resilience": 2,
+      "wounds": {"formula": "sb_plus_2tb_plus_wpb", "flat_adjust": 0},
+      "skills": [
+        "Athletics",
+        "Climb",
+        "Endurance",
+        "Entertain (Sing)",
+        "Intimidate",
+        "Language (Eltharin)",
+        "Melee (Basic)",
+        "Outdoor Survival",
+        "Perception",
+        "Ranged (Bow)",
+        "Stealth (Rural)",
+        "Track"
+      ],
+      "skill_allocation": {"plus5_advances": 3, "plus3_advances": 3, "advance_step_percent": 3},
+      "talents": [
+        {"note": "Apply characteristic modifiers (includes Initiative bonus as initiative_bonus field)."},
+        {"fixed": "Acute Sense (Sight)"},
+        {"choose_one": ["Hardy", "Second Sight"]},
+        {"fixed": "Night Vision"},
+        {"choose_one": ["Read/Write", "Very Resilient"]},
+        {"fixed": "Rover"}
+      ],
+      "source": "core"
+    }
+  }
+}

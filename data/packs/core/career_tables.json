@@ -1,0 +1,1549 @@
+{
+  "species": {
+    "Human (Reiklander)": [
+      {
+        "d100_from": 1,
+        "d100_to": 1,
+        "career": "Apothecary",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 2,
+        "d100_to": 2,
+        "career": "Engineer",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 3,
+        "d100_to": 3,
+        "career": "Lawyer",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 4,
+        "d100_to": 5,
+        "career": "Nun",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 6,
+        "d100_to": 6,
+        "career": "Physician",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 7,
+        "d100_to": 11,
+        "career": "Priest",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 12,
+        "d100_to": 13,
+        "career": "Scholar",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 14,
+        "d100_to": 14,
+        "career": "Wizard",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 15,
+        "d100_to": 15,
+        "career": "Agitator",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 16,
+        "d100_to": 17,
+        "career": "Artisan",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 18,
+        "d100_to": 19,
+        "career": "Beggar",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 20,
+        "d100_to": 20,
+        "career": "Investigator",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 21,
+        "d100_to": 21,
+        "career": "Merchant",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 22,
+        "d100_to": 23,
+        "career": "Rat Catcher",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 24,
+        "d100_to": 26,
+        "career": "Townsman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 27,
+        "d100_to": 27,
+        "career": "Watchman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 28,
+        "d100_to": 28,
+        "career": "Advisor",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 29,
+        "d100_to": 29,
+        "career": "Artist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 30,
+        "d100_to": 30,
+        "career": "Duellist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 31,
+        "d100_to": 31,
+        "career": "Envoy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 32,
+        "d100_to": 32,
+        "career": "Noble",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 33,
+        "d100_to": 35,
+        "career": "Servant",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 36,
+        "d100_to": 36,
+        "career": "Spy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 37,
+        "d100_to": 37,
+        "career": "Warden",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 38,
+        "d100_to": 38,
+        "career": "Bailiff",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 39,
+        "d100_to": 39,
+        "career": "Hedge Witch",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 40,
+        "d100_to": 40,
+        "career": "Herbalist",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 41,
+        "d100_to": 42,
+        "career": "Hunter",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 43,
+        "d100_to": 43,
+        "career": "Miner",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 44,
+        "d100_to": 44,
+        "career": "Mystic",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 45,
+        "d100_to": 45,
+        "career": "Scout",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 46,
+        "d100_to": 50,
+        "career": "Villager",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 51,
+        "d100_to": 51,
+        "career": "Bounty Hunter",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 52,
+        "d100_to": 52,
+        "career": "Coachman",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 53,
+        "d100_to": 54,
+        "career": "Entertainer",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 55,
+        "d100_to": 56,
+        "career": "Flagellant",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 57,
+        "d100_to": 57,
+        "career": "Messenger",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 58,
+        "d100_to": 58,
+        "career": "Pedlar",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 59,
+        "d100_to": 59,
+        "career": "Road Warden",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 60,
+        "d100_to": 60,
+        "career": "Witch Hunter",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 61,
+        "d100_to": 62,
+        "career": "Boatman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 63,
+        "d100_to": 63,
+        "career": "Huffer",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 64,
+        "d100_to": 65,
+        "career": "Riverwarden",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 66,
+        "d100_to": 68,
+        "career": "Riverwoman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 69,
+        "d100_to": 70,
+        "career": "Seaman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 71,
+        "d100_to": 71,
+        "career": "Smuggler",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 72,
+        "d100_to": 73,
+        "career": "Stevedore",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 74,
+        "d100_to": 74,
+        "career": "Wrecker",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 75,
+        "d100_to": 75,
+        "career": "Bawd",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 76,
+        "d100_to": 76,
+        "career": "Charlatan",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 77,
+        "d100_to": 77,
+        "career": "Fence",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 78,
+        "d100_to": 78,
+        "career": "Grave Robber",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 79,
+        "d100_to": 83,
+        "career": "Outlaw",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 84,
+        "d100_to": 84,
+        "career": "Racketeer",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 85,
+        "d100_to": 87,
+        "career": "Thief",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 88,
+        "d100_to": 88,
+        "career": "Witch",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 89,
+        "d100_to": 90,
+        "career": "Cavalryman",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 91,
+        "d100_to": 92,
+        "career": "Guard",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 93,
+        "d100_to": 93,
+        "career": "Knight",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 94,
+        "d100_to": 94,
+        "career": "Pit Fighter",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 95,
+        "d100_to": 95,
+        "career": "Protagonist",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 96,
+        "d100_to": 99,
+        "career": "Soldier",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 100,
+        "d100_to": 100,
+        "career": "Warrior Priest",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      }
+    ],
+    "Dwarf": [
+      {
+        "d100_from": 1,
+        "d100_to": 1,
+        "career": "Apothecary",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 2,
+        "d100_to": 4,
+        "career": "Engineer",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 5,
+        "d100_to": 6,
+        "career": "Lawyer",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 7,
+        "d100_to": 7,
+        "career": "Physician",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 8,
+        "d100_to": 9,
+        "career": "Scholar",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 10,
+        "d100_to": 11,
+        "career": "Agitator",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 12,
+        "d100_to": 17,
+        "career": "Artisan",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 18,
+        "d100_to": 18,
+        "career": "Beggar",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 19,
+        "d100_to": 20,
+        "career": "Investigator",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 21,
+        "d100_to": 24,
+        "career": "Merchant",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 25,
+        "d100_to": 25,
+        "career": "Rat Catcher",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 26,
+        "d100_to": 31,
+        "career": "Townsman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 32,
+        "d100_to": 34,
+        "career": "Watchman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 35,
+        "d100_to": 36,
+        "career": "Advisor",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 37,
+        "d100_to": 37,
+        "career": "Artist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 38,
+        "d100_to": 38,
+        "career": "Duellist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 39,
+        "d100_to": 40,
+        "career": "Envoy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 41,
+        "d100_to": 41,
+        "career": "Noble",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 42,
+        "d100_to": 42,
+        "career": "Servant",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 43,
+        "d100_to": 43,
+        "career": "Spy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 44,
+        "d100_to": 45,
+        "career": "Warden",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 46,
+        "d100_to": 47,
+        "career": "Bailiff",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 48,
+        "d100_to": 49,
+        "career": "Hunter",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 50,
+        "d100_to": 54,
+        "career": "Miner",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 55,
+        "d100_to": 55,
+        "career": "Scout",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 56,
+        "d100_to": 56,
+        "career": "Villager",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 57,
+        "d100_to": 60,
+        "career": "Bounty Hunter",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 61,
+        "d100_to": 61,
+        "career": "Coachman",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 62,
+        "d100_to": 63,
+        "career": "Entertainer",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 64,
+        "d100_to": 65,
+        "career": "Messenger",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 66,
+        "d100_to": 67,
+        "career": "Pedlar",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 68,
+        "d100_to": 69,
+        "career": "Boatman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 70,
+        "d100_to": 70,
+        "career": "Huffer",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 71,
+        "d100_to": 72,
+        "career": "Riverwoman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 73,
+        "d100_to": 73,
+        "career": "Seaman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 74,
+        "d100_to": 75,
+        "career": "Smuggler",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 76,
+        "d100_to": 77,
+        "career": "Stevedore",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 78,
+        "d100_to": 78,
+        "career": "Wrecker",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 79,
+        "d100_to": 79,
+        "career": "Fence",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 80,
+        "d100_to": 82,
+        "career": "Outlaw",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 83,
+        "d100_to": 83,
+        "career": "Racketeer",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 84,
+        "d100_to": 84,
+        "career": "Thief",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 85,
+        "d100_to": 87,
+        "career": "Guard",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 88,
+        "d100_to": 90,
+        "career": "Pit Fighter",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 91,
+        "d100_to": 93,
+        "career": "Protagonist",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 94,
+        "d100_to": 96,
+        "career": "Soldier",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 97,
+        "d100_to": 100,
+        "career": "Slayer",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      }
+    ],
+    "Halfling": [
+      {
+        "d100_from": 1,
+        "d100_to": 1,
+        "career": "Apothecary",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 2,
+        "d100_to": 2,
+        "career": "Engineer",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 3,
+        "d100_to": 4,
+        "career": "Lawyer",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 5,
+        "d100_to": 6,
+        "career": "Physician",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 7,
+        "d100_to": 8,
+        "career": "Scholar",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 9,
+        "d100_to": 10,
+        "career": "Agitator",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 11,
+        "d100_to": 15,
+        "career": "Artisan",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 16,
+        "d100_to": 19,
+        "career": "Beggar",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 20,
+        "d100_to": 21,
+        "career": "Investigator",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 22,
+        "d100_to": 25,
+        "career": "Merchant",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 26,
+        "d100_to": 28,
+        "career": "Rat Catcher",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 29,
+        "d100_to": 31,
+        "career": "Townsman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 32,
+        "d100_to": 33,
+        "career": "Watchman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 34,
+        "d100_to": 34,
+        "career": "Advisor",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 35,
+        "d100_to": 36,
+        "career": "Artist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 37,
+        "d100_to": 37,
+        "career": "Envoy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 38,
+        "d100_to": 43,
+        "career": "Servant",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 44,
+        "d100_to": 44,
+        "career": "Spy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 45,
+        "d100_to": 46,
+        "career": "Warden",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 47,
+        "d100_to": 47,
+        "career": "Bailiff",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 48,
+        "d100_to": 50,
+        "career": "Herbalist",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 51,
+        "d100_to": 52,
+        "career": "Hunter",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 53,
+        "d100_to": 53,
+        "career": "Miner",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 54,
+        "d100_to": 54,
+        "career": "Scout",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 55,
+        "d100_to": 57,
+        "career": "Villager",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 58,
+        "d100_to": 58,
+        "career": "Bounty Hunter",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 59,
+        "d100_to": 60,
+        "career": "Coachman",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 61,
+        "d100_to": 63,
+        "career": "Entertainer",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 64,
+        "d100_to": 65,
+        "career": "Messenger",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 66,
+        "d100_to": 67,
+        "career": "Pedlar",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 68,
+        "d100_to": 68,
+        "career": "Road Warden",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 69,
+        "d100_to": 69,
+        "career": "Boatman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 70,
+        "d100_to": 70,
+        "career": "Huffer",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 71,
+        "d100_to": 71,
+        "career": "Riverwarden",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 72,
+        "d100_to": 74,
+        "career": "Riverwoman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 75,
+        "d100_to": 75,
+        "career": "Seaman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 76,
+        "d100_to": 79,
+        "career": "Smuggler",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 80,
+        "d100_to": 82,
+        "career": "Stevedore",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 83,
+        "d100_to": 85,
+        "career": "Bawd",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 86,
+        "d100_to": 86,
+        "career": "Charlatan",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 87,
+        "d100_to": 87,
+        "career": "Fence",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 88,
+        "d100_to": 88,
+        "career": "Grave Robber",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 89,
+        "d100_to": 89,
+        "career": "Outlaw",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 90,
+        "d100_to": 90,
+        "career": "Racketeer",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 91,
+        "d100_to": 94,
+        "career": "Thief",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 95,
+        "d100_to": 96,
+        "career": "Cavalryman",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 97,
+        "d100_to": 98,
+        "career": "Guard",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 99,
+        "d100_to": 99,
+        "career": "Knight",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 100,
+        "d100_to": 100,
+        "career": "Warrior Priest",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      }
+    ],
+    "High Elf": [
+      {
+        "d100_from": 1,
+        "d100_to": 2,
+        "career": "Apothecary",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 3,
+        "d100_to": 6,
+        "career": "Lawyer",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 7,
+        "d100_to": 8,
+        "career": "Physician",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 9,
+        "d100_to": 12,
+        "career": "Scholar",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 13,
+        "d100_to": 16,
+        "career": "Wizard",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 17,
+        "d100_to": 19,
+        "career": "Artisan",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 20,
+        "d100_to": 21,
+        "career": "Investigator",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 22,
+        "d100_to": 26,
+        "career": "Merchant",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 27,
+        "d100_to": 28,
+        "career": "Townsman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 29,
+        "d100_to": 29,
+        "career": "Watchman",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 30,
+        "d100_to": 31,
+        "career": "Advisor",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 32,
+        "d100_to": 32,
+        "career": "Artist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 33,
+        "d100_to": 34,
+        "career": "Duellist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 35,
+        "d100_to": 37,
+        "career": "Envoy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 38,
+        "d100_to": 40,
+        "career": "Noble",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 41,
+        "d100_to": 43,
+        "career": "Spy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 44,
+        "d100_to": 45,
+        "career": "Warden",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 46,
+        "d100_to": 47,
+        "career": "Herbalist",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 48,
+        "d100_to": 50,
+        "career": "Hunter",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 51,
+        "d100_to": 56,
+        "career": "Scout",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 57,
+        "d100_to": 59,
+        "career": "Bounty Hunter",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 60,
+        "d100_to": 62,
+        "career": "Entertainer",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 63,
+        "d100_to": 63,
+        "career": "Messenger",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 64,
+        "d100_to": 64,
+        "career": "Boatman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 65,
+        "d100_to": 79,
+        "career": "Seaman",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 80,
+        "d100_to": 80,
+        "career": "Smuggler",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 81,
+        "d100_to": 82,
+        "career": "Bawd",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 83,
+        "d100_to": 85,
+        "career": "Charlatan",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 86,
+        "d100_to": 88,
+        "career": "Outlaw",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 89,
+        "d100_to": 92,
+        "career": "Cavalryman",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 93,
+        "d100_to": 94,
+        "career": "Guard",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 95,
+        "d100_to": 95,
+        "career": "Knight",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 96,
+        "d100_to": 97,
+        "career": "Pit Fighter",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 98,
+        "d100_to": 98,
+        "career": "Protagonist",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 99,
+        "d100_to": 99,
+        "career": "Soldier",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 100,
+        "d100_to": 100,
+        "career": "Warrior Priest",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      }
+    ],
+    "Wood Elf": [
+      {
+        "d100_from": 1,
+        "d100_to": 1,
+        "career": "Scholar",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 2,
+        "d100_to": 5,
+        "career": "Wizard",
+        "career_class": "Academics",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing Writing Kit and 1d10 sheets of Parchment"
+      },
+      {
+        "d100_from": 6,
+        "d100_to": 10,
+        "career": "Artisan",
+        "career_class": "Burghers",
+        "base_trappings": "Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag containing Lunch"
+      },
+      {
+        "d100_from": 11,
+        "d100_to": 14,
+        "career": "Advisor",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 15,
+        "d100_to": 18,
+        "career": "Artist",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 19,
+        "d100_to": 25,
+        "career": "Envoy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 26,
+        "d100_to": 31,
+        "career": "Noble",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 32,
+        "d100_to": 35,
+        "career": "Spy",
+        "career_class": "Courtiers",
+        "base_trappings": "Courtly Garb, Dagger, Pouch containing Tweezers, Ear Pick and a Comb"
+      },
+      {
+        "d100_from": 36,
+        "d100_to": 42,
+        "career": "Herbalist",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 43,
+        "d100_to": 52,
+        "career": "Hunter",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 53,
+        "d100_to": 57,
+        "career": "Mystic",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 58,
+        "d100_to": 68,
+        "career": "Scout",
+        "career_class": "Peasants",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing Rations (1 day)"
+      },
+      {
+        "d100_from": 69,
+        "d100_to": 70,
+        "career": "Bounty Hunter",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 71,
+        "d100_to": 75,
+        "career": "Entertainer",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 76,
+        "d100_to": 78,
+        "career": "Messenger",
+        "career_class": "Rangers",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Backpack containing Tinderbox, Blanket, Rations (1 day)"
+      },
+      {
+        "d100_from": 79,
+        "d100_to": 79,
+        "career": "Wrecker",
+        "career_class": "Riverfolk",
+        "base_trappings": "Cloak, Clothing, Dagger, Pouch, Sling Bag containing a Flask of Spirits"
+      },
+      {
+        "d100_from": 80,
+        "d100_to": 85,
+        "career": "Outlaw",
+        "career_class": "Rogues",
+        "base_trappings": "Clothing, Dagger, Pouch, Sling Bag containing 2 Candles, 1d10 Matches, a Hood or Mask"
+      },
+      {
+        "d100_from": 86,
+        "d100_to": 90,
+        "career": "Cavalryman",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 91,
+        "d100_to": 92,
+        "career": "Guard",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 93,
+        "d100_to": 94,
+        "career": "Knight",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 95,
+        "d100_to": 96,
+        "career": "Pit Fighter",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 97,
+        "d100_to": 97,
+        "career": "Protagonist",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 98,
+        "d100_to": 99,
+        "career": "Soldier",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      },
+      {
+        "d100_from": 100,
+        "d100_to": 100,
+        "career": "Warrior Priest",
+        "career_class": "Warriors",
+        "base_trappings": "Clothing, Hand Weapon, Dagger, Pouch"
+      }
+    ]
+  },
+  "source": "core",
+  "merge_policy": "replace_species_tables"
+}

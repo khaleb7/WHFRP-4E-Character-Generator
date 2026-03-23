@@ -1,0 +1,1669 @@
+{
+  "careers": {
+    "Apothecary": {
+      "advance_characteristics": [
+        "T",
+        "Dex",
+        "Int"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Heal",
+        "Language (Classical)",
+        "Lore (Chemistry)",
+        "Lore (Medicine)",
+        "Lore (Plants)",
+        "Trade (Apothecary)",
+        "Trade (Poisoner)"
+      ],
+      "talents": [
+        "Concoct",
+        "Craftsman (Apothecary)",
+        "Etiquette (Scholar)",
+        "Read/Write"
+      ],
+      "trappings": "Book (Blank), Healing Draft, Leather Jerkin, Pestle and Mortar",
+      "status": "Apothecary's Apprentice \u2014 Brass 3",
+      "source": "core"
+    },
+    "Engineer": {
+      "advance_characteristics": [
+        "BS",
+        "Dex",
+        "Int"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Cool",
+        "Endurance",
+        "Language (Classical)",
+        "Lore (Engineer)",
+        "Perception",
+        "Ranged (Blackpowder)",
+        "Trade (Engineer)"
+      ],
+      "talents": [
+        "Artist",
+        "Gunner",
+        "Read/Write",
+        "Tinker"
+      ],
+      "trappings": "Book (Engineer), Hammer and Spikes",
+      "status": "Student Engineer \u2014 Brass 4",
+      "source": "core"
+    },
+    "Lawyer": {
+      "advance_characteristics": [
+        "I",
+        "Dex",
+        "Int"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Endurance",
+        "Haggle",
+        "Language (Classical)",
+        "Lore (Law)",
+        "Lore (Theology)",
+        "Perception",
+        "Research"
+      ],
+      "talents": [
+        "Blather",
+        "Etiquette (Scholar)",
+        "Read/Write",
+        "Speedreader"
+      ],
+      "trappings": "Book (Law), Magnifying Glass",
+      "status": "Student Lawyer \u2014 Brass 4",
+      "source": "core"
+    },
+    "Nun": {
+      "advance_characteristics": [
+        "Dex",
+        "Int",
+        "Fel"
+      ],
+      "skills": [
+        "Art (Calligraphy)",
+        "Cool",
+        "Endurance",
+        "Entertain (Storytelling)",
+        "Gossip",
+        "Heal",
+        "Lore (Theology)",
+        "Pray"
+      ],
+      "talents": [
+        "Bless (Any)",
+        "Stone Soup",
+        "Panhandle",
+        "Read/Write"
+      ],
+      "trappings": "Religious Symbol, Robes",
+      "status": "Novitiate \u2014 Brass 1",
+      "source": "core"
+    },
+    "Physician": {
+      "advance_characteristics": [
+        "Dex",
+        "Int",
+        "WP"
+      ],
+      "skills": [
+        "Bribery",
+        "Cool",
+        "Drive",
+        "Endurance",
+        "Gossip",
+        "Heal",
+        "Perception",
+        "Sleight of Hand"
+      ],
+      "talents": [
+        "Bookish",
+        "Field Dressing",
+        "Read/Write",
+        "Strike to Stun"
+      ],
+      "trappings": "Bandages, Healing Draught",
+      "status": "Physician's Apprentice \u2014 Brass 4",
+      "source": "core"
+    },
+    "Priest": {
+      "advance_characteristics": [
+        "T",
+        "Ag",
+        "WP"
+      ],
+      "skills": [
+        "Athletics",
+        "Cool",
+        "Endurance",
+        "Intuition",
+        "Lore (Theology)",
+        "Perception",
+        "Pray",
+        "Research"
+      ],
+      "talents": [
+        "Bless (Any)",
+        "Holy Visions",
+        "Read/Write",
+        "Suave"
+      ],
+      "trappings": "Religious Symbol, Robes",
+      "status": "Initiate \u2014 Brass 2",
+      "source": "core"
+    },
+    "Scholar": {
+      "advance_characteristics": [
+        "T",
+        "Int",
+        "WP"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Entertain (Storytelling)",
+        "Gamble",
+        "Gossip",
+        "Haggle",
+        "Language (Classical)",
+        "Lore (Any)",
+        "Research"
+      ],
+      "talents": [
+        "Carouser",
+        "Read/Write",
+        "Savvy",
+        "Super Numerate"
+      ],
+      "trappings": "Alcohol, Book, Opinions, Writing Kit",
+      "status": "Student \u2014 Brass 3",
+      "source": "core"
+    },
+    "Wizard": {
+      "advance_characteristics": [
+        "WS",
+        "Int",
+        "WP"
+      ],
+      "skills": [
+        "Channelling (Any Colour)",
+        "Dodge",
+        "Intuition",
+        "Language (Magick)",
+        "Lore (Magic)",
+        "Melee (Basic)",
+        "Melee (Polearm)",
+        "Perception"
+      ],
+      "talents": [
+        "Aethyric Attunement",
+        "Petty Magic (Any)",
+        "Read/Write",
+        "Second Sight"
+      ],
+      "trappings": "Grimoire, Staff",
+      "status": "Wizard's Apprentice \u2014 Brass 3",
+      "source": "core"
+    },
+    "Agitator": {
+      "advance_characteristics": [
+        "BS",
+        "Int",
+        "Fel"
+      ],
+      "skills": [
+        "Art (Writing)",
+        "Bribery",
+        "Charm",
+        "Consume Alcohol",
+        "Gossip",
+        "Haggle",
+        "Lore (Politics)",
+        "Trade (Printing)"
+      ],
+      "talents": [
+        "Blather",
+        "Gregarious",
+        "Panhandle",
+        "Read/Write"
+      ],
+      "trappings": "Writing Kit, Hammer and Nails, Pile of Leaflets",
+      "status": "Pamphleteer \u2014 Brass 1",
+      "source": "core"
+    },
+    "Artisan": {
+      "advance_characteristics": [
+        "S",
+        "T",
+        "Dex"
+      ],
+      "skills": [
+        "Athletics",
+        "Cool",
+        "Consume Alcohol",
+        "Dodge",
+        "Endurance",
+        "Evaluate",
+        "Stealth (Urban)",
+        "Trade (Any)"
+      ],
+      "talents": [
+        "Artistic",
+        "Craftsman (Any)",
+        "Strong Back",
+        "Very Strong"
+      ],
+      "trappings": "Chalk, Leather Jerkin, 1d10 rags",
+      "status": "Apprentice Artisan \u2014 Brass 2",
+      "source": "core"
+    },
+    "Beggar": {
+      "advance_characteristics": [
+        "T",
+        "Ag",
+        "Fel"
+      ],
+      "skills": [
+        "Athletics",
+        "Charm",
+        "Consume Alcohol",
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Intuition",
+        "Stealth (Urban)"
+      ],
+      "talents": [
+        "Panhandle",
+        "Resistance (Disease)",
+        "Stone Soup",
+        "Very Resilient"
+      ],
+      "trappings": "Poor Quality Blanket, Cup",
+      "status": "Pauper \u2014 Brass 0",
+      "source": "core"
+    },
+    "Investigator": {
+      "advance_characteristics": [
+        "I",
+        "Ag",
+        "Int"
+      ],
+      "skills": [
+        "Charm",
+        "Climb",
+        "Cool",
+        "Gossip",
+        "Intuition",
+        "Perception",
+        "Stealth (Urban)",
+        "Track"
+      ],
+      "talents": [
+        "Alley Cat",
+        "Beneath Notice",
+        "Read/Write",
+        "Sharp"
+      ],
+      "trappings": "Lantern, Lamp Oil, Journal, Quill and Ink",
+      "status": "Sleuth \u2014 Silver 1",
+      "source": "core"
+    },
+    "Merchant": {
+      "advance_characteristics": [
+        "WS",
+        "Ag",
+        "Fel"
+      ],
+      "skills": [
+        "Animal Care",
+        "Bribery",
+        "Charm",
+        "Consume Alcohol",
+        "Drive",
+        "Gamble",
+        "Gossip",
+        "Haggle"
+      ],
+      "talents": [
+        "Blather",
+        "Dealmaker",
+        "Read/Write",
+        "Suave"
+      ],
+      "trappings": "Abacus, Mule and Cart, Canvas Tarpaulin, 3d10 Silver Shillings",
+      "status": "Trader \u2014 Silver 2",
+      "source": "core"
+    },
+    "Rat Catcher": {
+      "advance_characteristics": [
+        "WS",
+        "BS",
+        "WP"
+      ],
+      "skills": [
+        "Athletics",
+        "Animal Training (Dog)",
+        "Charm Animal",
+        "Consume Alcohol",
+        "Endurance",
+        "Melee (Basic)",
+        "Ranged (Sling)",
+        "Stealth (Underground or Urban)"
+      ],
+      "talents": [
+        "Night Vision",
+        "Resistance (Disease)",
+        "Strike Mighty Blow",
+        "Strike to Stun"
+      ],
+      "trappings": "Sling with Ammunition, Sack, Small but Vicious Dog",
+      "status": "Rat Hunter \u2014 Brass 3",
+      "source": "core"
+    },
+    "Townsman": {
+      "advance_characteristics": [
+        "Ag",
+        "Int",
+        "Fel"
+      ],
+      "skills": [
+        "Charm",
+        "Climb",
+        "Consume Alcohol",
+        "Drive",
+        "Dodge",
+        "Gamble",
+        "Gossip",
+        "Haggle"
+      ],
+      "talents": [
+        "Alley Cat",
+        "Beneath Notice",
+        "Etiquette (Servants)",
+        "Sturdy"
+      ],
+      "trappings": "Lodgings, Sturdy Boots",
+      "status": "Clerk \u2014 Silver 1",
+      "source": "core"
+    },
+    "Watchman": {
+      "advance_characteristics": [
+        "WS",
+        "S",
+        "Fel"
+      ],
+      "skills": [
+        "Athletics",
+        "Climb",
+        "Consume Alcohol",
+        "Dodge",
+        "Endurance",
+        "Gamble",
+        "Melee (Basic)",
+        "Perception"
+      ],
+      "talents": [
+        "Drilled",
+        "Hardy",
+        "Strike to Stun",
+        "Tenacious"
+      ],
+      "trappings": "Hand Weapon, Leather Jack, Uniform",
+      "status": "Watchman \u2014 Silver 1",
+      "source": "core"
+    },
+    "Advisor": {
+      "advance_characteristics": [
+        "T",
+        "I",
+        "Ag"
+      ],
+      "skills": [
+        "Bribery",
+        "Consume Alcohol",
+        "Endurance",
+        "Gossip",
+        "Haggle",
+        "Language (Classical)",
+        "Lore (Politics)",
+        "Perception"
+      ],
+      "talents": [
+        "Beneath Notice",
+        "Etiquette (Any)",
+        "Gregarious",
+        "Read/Write"
+      ],
+      "trappings": "Writing Kit",
+      "status": "Aide \u2014 Silver 2",
+      "source": "core"
+    },
+    "Artist": {
+      "advance_characteristics": [
+        "S",
+        "I",
+        "Dex"
+      ],
+      "skills": [
+        "Art (Any)",
+        "Cool",
+        "Consume Alcohol",
+        "Evaluate",
+        "Endurance",
+        "Gossip",
+        "Perception",
+        "Stealth (Urban)"
+      ],
+      "talents": [
+        "Artistic",
+        "Sharp",
+        "Strong Back",
+        "Tenacious"
+      ],
+      "trappings": "Brush or Chisel or Quill Pen",
+      "status": "Apprentice Artist \u2014 Silver 1",
+      "source": "core"
+    },
+    "Duellist": {
+      "advance_characteristics": [
+        "WS",
+        "I",
+        "Ag"
+      ],
+      "skills": [
+        "Athletics",
+        "Dodge",
+        "Endurance",
+        "Heal",
+        "Intuition",
+        "Language (Classical)",
+        "Melee (Any)",
+        "Perception"
+      ],
+      "talents": [
+        "Beat Blade",
+        "Distract",
+        "Feint",
+        "Step Aside"
+      ],
+      "trappings": "Basic Weapon or Rapier, Sling Bag containing Clothing and 1d10 Bandages",
+      "status": "Fencer \u2014 Silver 3",
+      "source": "core"
+    },
+    "Envoy": {
+      "advance_characteristics": [
+        "T",
+        "Ag",
+        "Fel"
+      ],
+      "skills": [
+        "Athletics",
+        "Charm",
+        "Drive",
+        "Dodge",
+        "Endurance",
+        "Intuition",
+        "Ride (Horse)",
+        "Row"
+      ],
+      "talents": [
+        "Blather",
+        "Etiquette (Nobles)",
+        "Read/Write",
+        "Suave"
+      ],
+      "trappings": "Leather Jack, Livery, Scroll Case",
+      "status": "Herald \u2014 Silver 2",
+      "source": "core"
+    },
+    "Noble": {
+      "advance_characteristics": [
+        "WS",
+        "I",
+        "Dex"
+      ],
+      "skills": [
+        "Bribery",
+        "Consume Alcohol",
+        "Gamble",
+        "Intimidate",
+        "Leadership",
+        "Lore (Heraldry)",
+        "Melee (Fencing)",
+        "Play (Any)"
+      ],
+      "talents": [
+        "Etiquette (Nobles)",
+        "Luck",
+        "Noble Blood",
+        "Read/Write"
+      ],
+      "trappings": "Courtly Garb, Foil or Hand Mirror, Jewellery",
+      "status": "Scion \u2014 Gold 1",
+      "source": "core"
+    },
+    "Servant": {
+      "advance_characteristics": [
+        "S",
+        "T",
+        "Ag"
+      ],
+      "skills": [
+        "Athletics",
+        "Climb",
+        "Drive",
+        "Dodge",
+        "Endurance",
+        "Intuition",
+        "Perception",
+        "Stealth (Any)"
+      ],
+      "talents": [
+        "Beneath Notice",
+        "Strong Back",
+        "Strong-minded",
+        "Sturdy"
+      ],
+      "trappings": "Floor Brush",
+      "status": "Menial \u2014 Silver 1",
+      "source": "core"
+    },
+    "Spy": {
+      "advance_characteristics": [
+        "Ag",
+        "WP",
+        "Fel"
+      ],
+      "skills": [
+        "Bribery",
+        "Charm",
+        "Cool",
+        "Gamble",
+        "Gossip",
+        "Haggle",
+        "Perception",
+        "Stealth (Any)"
+      ],
+      "talents": [
+        "Blather",
+        "Carouser",
+        "Gregarious",
+        "Shadow"
+      ],
+      "trappings": "Charcoal stick, Sling Bag containing 2 different sets of clothing and Hooded Cloak",
+      "status": "Informer \u2014 Brass 3",
+      "source": "core"
+    },
+    "Warden": {
+      "advance_characteristics": [
+        "S",
+        "T",
+        "WP"
+      ],
+      "skills": [
+        "Athletics",
+        "Charm Animal",
+        "Consume Alcohol",
+        "Cool",
+        "Endurance",
+        "Intuition",
+        "Perception",
+        "Trade (Any)"
+      ],
+      "talents": [
+        "Menacing",
+        "Night Vision",
+        "Sharp",
+        "Strike to Stun"
+      ],
+      "trappings": "Keys, Lantern, Lamp Oil, Livery",
+      "status": "Custodian \u2014 Silver 1",
+      "source": "core"
+    },
+    "Bailiff": {
+      "advance_characteristics": [
+        "WS",
+        "I",
+        "WP"
+      ],
+      "skills": [
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Gossip",
+        "Haggle",
+        "Intimidate",
+        "Melee (Basic)",
+        "Perception"
+      ],
+      "talents": [
+        "Embezzle",
+        "Numismatics",
+        "Strong Back",
+        "Tenacious"
+      ],
+      "trappings": "Hand weapon, small lock box",
+      "status": "Tax Collector \u2014 Silver 1",
+      "source": "core"
+    },
+    "Hedge Witch": {
+      "advance_characteristics": [
+        "T",
+        "I",
+        "Dex"
+      ],
+      "skills": [
+        "Channelling",
+        "Endurance",
+        "Intuition",
+        "Lore (Folklore)",
+        "Lore (Herbs)",
+        "Outdoor Survival",
+        "Perception",
+        "Trade (Charms)"
+      ],
+      "talents": [
+        "Fast Hands",
+        "Petty Magic",
+        "Rover",
+        "Strider (Woodlands)"
+      ],
+      "trappings": "1d10 Lucky Charms, Quarterstaff, Backpack",
+      "status": "Hedge Apprentice \u2014 Brass 1",
+      "source": "core"
+    },
+    "Herbalist": {
+      "advance_characteristics": [
+        "T",
+        "I",
+        "Ag"
+      ],
+      "skills": [
+        "Charm Animal",
+        "Climb",
+        "Endurance",
+        "Lore (Herbs)",
+        "Outdoor Survival",
+        "Perception",
+        "Swim",
+        "Trade (Herbalist)"
+      ],
+      "talents": [
+        "Acute Sense (Taste)",
+        "Orientation",
+        "Rover",
+        "Strider (Any)"
+      ],
+      "trappings": "Boots, Cloak, Sling Bag containing Assortment of Herbs",
+      "status": "Herb Gatherer \u2014 Brass 2",
+      "source": "core"
+    },
+    "Hunter": {
+      "advance_characteristics": [
+        "S",
+        "T",
+        "Int"
+      ],
+      "skills": [
+        "Charm Animal",
+        "Climb",
+        "Endurance",
+        "Lore (Beasts)",
+        "Outdoor Survival",
+        "Perception",
+        "Ranged (Bow)",
+        "Set Trap"
+      ],
+      "talents": [
+        "Hardy",
+        "Rover",
+        "Strider (Any)",
+        "Trapper"
+      ],
+      "trappings": "Selection of Animal Traps, Hand Weapon, Sturdy Boots and Cloak",
+      "status": "Trapper \u2014 Brass 2",
+      "source": "core"
+    },
+    "Miner": {
+      "advance_characteristics": [
+        "S",
+        "T",
+        "WP"
+      ],
+      "skills": [
+        "Cool",
+        "Endurance",
+        "Intuition",
+        "Lore (Local)",
+        "Melee (Two-handed)",
+        "Outdoor Survival",
+        "Perception",
+        "Swim"
+      ],
+      "talents": [
+        "Rover",
+        "Strider (Rocky)",
+        "Sturdy",
+        "Tenacious"
+      ],
+      "trappings": "Charcoal Stick, Crude Map, Pan, Spade",
+      "status": "Prospector \u2014 Brass 2",
+      "source": "core"
+    },
+    "Mystic": {
+      "advance_characteristics": [
+        "I",
+        "Dex",
+        "Fel"
+      ],
+      "skills": [
+        "Charm",
+        "Entertain (Fortune Telling)",
+        "Dodge",
+        "Gossip",
+        "Haggle",
+        "Intuition",
+        "Perception",
+        "Sleight of Hand"
+      ],
+      "talents": [
+        "Attractive",
+        "Luck",
+        "Second Sight",
+        "Suave"
+      ],
+      "trappings": "Deck of Cards or Dice, Cheap Jewellery",
+      "status": "Fortune Teller \u2014 Brass 1",
+      "source": "core"
+    },
+    "Scout": {
+      "advance_characteristics": [
+        "T",
+        "I",
+        "Ag"
+      ],
+      "skills": [
+        "Charm Animal",
+        "Climb",
+        "Endurance",
+        "Gossip",
+        "Lore (Local)",
+        "Melee (Basic)",
+        "Outdoor Survival",
+        "Perception"
+      ],
+      "talents": [
+        "Orientation",
+        "Rover",
+        "Sharp",
+        "Strider (Any)"
+      ],
+      "trappings": "Hand Weapon, Leather Jack, Sturdy Boots and Cloak, Rope",
+      "status": "Guide \u2014 Brass 3",
+      "source": "core"
+    },
+    "Villager": {
+      "advance_characteristics": [
+        "S",
+        "T",
+        "Ag"
+      ],
+      "skills": [
+        "Animal Care",
+        "Athletics",
+        "Consume Alcohol",
+        "Endurance",
+        "Gossip",
+        "Melee (Fist)",
+        "Lore (Local)",
+        "Outdoor Survival"
+      ],
+      "talents": [
+        "Rover",
+        "Strong Back",
+        "Strong-minded",
+        "Stone Soup"
+      ],
+      "trappings": "None",
+      "status": "Peasant \u2014 Brass 2",
+      "source": "core"
+    },
+    "Bounty Hunter": {
+      "advance_characteristics": [
+        "WS",
+        "T",
+        "Ag"
+      ],
+      "skills": [
+        "Bribery",
+        "Charm",
+        "Gossip",
+        "Haggle",
+        "Intuition",
+        "Melee (Basic)",
+        "Outdoor Survival",
+        "Perception"
+      ],
+      "talents": [
+        "Break and Enter",
+        "Shadow",
+        "Strike to Stun",
+        "Suave"
+      ],
+      "trappings": "Hand Weapon, Leather Jerkin, Rope",
+      "status": "Thief-taker \u2014 Silver 1",
+      "source": "core"
+    },
+    "Coachman": {
+      "advance_characteristics": [
+        "BS",
+        "T",
+        "WP"
+      ],
+      "skills": [
+        "Animal Care",
+        "Charm Animal",
+        "Climb",
+        "Drive",
+        "Endurance",
+        "Perception",
+        "Ranged (Entangling)",
+        "Ride (Horse)"
+      ],
+      "talents": [
+        "Animal Affinity",
+        "Seasoned Traveller",
+        "Trick-Riding",
+        "Tenacious"
+      ],
+      "trappings": "Warm Coat and Gloves, Whip",
+      "status": "Postilion \u2014 Silver 1",
+      "source": "core"
+    },
+    "Entertainer": {
+      "advance_characteristics": [
+        "Ag",
+        "Dex",
+        "Fel"
+      ],
+      "skills": [
+        "Athletics",
+        "Charm",
+        "Entertain (Any)",
+        "Gossip",
+        "Haggle",
+        "Perform (Any)",
+        "Play (Any)",
+        "Sleight of Hand"
+      ],
+      "talents": [
+        "Attractive",
+        "Mimic",
+        "Public Speaking",
+        "Suave"
+      ],
+      "trappings": "Bowl, Instrument",
+      "status": "Busker \u2014 Brass 3",
+      "source": "core"
+    },
+    "Flagellant": {
+      "advance_characteristics": [
+        "WP",
+        "S",
+        "T"
+      ],
+      "skills": [
+        "Dodge",
+        "Endurance",
+        "Heal",
+        "Intimidate",
+        "Intuition",
+        "Lore (Theology)",
+        "Melee (Flail)",
+        "Outdoor Survival"
+      ],
+      "talents": [
+        "Berserk Charge",
+        "Frenzy",
+        "Read/Write",
+        "Stone Soup"
+      ],
+      "trappings": "Flail, Tattered Robes",
+      "status": "Zealot \u2014 Brass 0",
+      "source": "core"
+    },
+    "Messenger": {
+      "advance_characteristics": [
+        "T",
+        "I",
+        "Ag"
+      ],
+      "skills": [
+        "Athletics",
+        "Climb",
+        "Dodge",
+        "Endurance",
+        "Gossip",
+        "Navigation",
+        "Perception",
+        "Melee (Fist)"
+      ],
+      "talents": [
+        "Flee!",
+        "Fleet Footed",
+        "Sprinter",
+        "Step Aside"
+      ],
+      "trappings": "Scroll Case",
+      "status": "Runner \u2014 Brass 3",
+      "source": "core"
+    },
+    "Pedlar": {
+      "advance_characteristics": [
+        "T",
+        "Dex",
+        "WP"
+      ],
+      "skills": [
+        "Charm",
+        "Endurance",
+        "Entertain (Storytelling)",
+        "Gossip",
+        "Haggle",
+        "Intuition",
+        "Outdoor Survival",
+        "Stealth (Rural or Urban)"
+      ],
+      "talents": [
+        "Fisherman",
+        "Flee!",
+        "Rover",
+        "Tinker"
+      ],
+      "trappings": "Backpack, Bedroll, Goods worth 2d10 brass, Tent",
+      "status": "Vagabond \u2014 Brass 1",
+      "source": "core"
+    },
+    "Road Warden": {
+      "advance_characteristics": [
+        "BS",
+        "T",
+        "I"
+      ],
+      "skills": [
+        "Bribery",
+        "Consume Alcohol",
+        "Gamble",
+        "Gossip",
+        "Haggle",
+        "Melee (Basic)",
+        "Perception",
+        "Ranged (Crossbow)"
+      ],
+      "talents": [
+        "Coolheaded",
+        "Embezzle",
+        "Marksman",
+        "Numismatics"
+      ],
+      "trappings": "Crossbow with 10 Bolts, Leather Jack",
+      "status": "Toll Keeper \u2014 Brass 5",
+      "source": "core"
+    },
+    "Witch Hunter": {
+      "advance_characteristics": [
+        "T",
+        "I",
+        "WP"
+      ],
+      "skills": [
+        "Charm",
+        "Consume Alcohol",
+        "Heal",
+        "Intimidate",
+        "Intuition",
+        "Lore (Torture)",
+        "Melee (Basic)",
+        "Perception"
+      ],
+      "talents": [
+        "Coolheaded",
+        "Menacing",
+        "Read/Write",
+        "Resolute"
+      ],
+      "trappings": "Hand Weapon, Instruments of Torture",
+      "status": "Interrogator \u2014 Silver 1",
+      "source": "core"
+    },
+    "Boatman": {
+      "advance_characteristics": [
+        "S",
+        "T",
+        "Ag"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Dodge",
+        "Endurance",
+        "Gossip",
+        "Melee (Basic)",
+        "Row",
+        "Sail",
+        "Swim"
+      ],
+      "talents": [
+        "Dirty Fighting",
+        "Fisherman",
+        "Strong Back",
+        "Strong Swimmer"
+      ],
+      "trappings": "Hand Weapon (Boat Hook), Leather Jack, Pole",
+      "status": "Boat-hand \u2014 Silver 1",
+      "source": "core"
+    },
+    "Huffer": {
+      "advance_characteristics": [
+        "WS",
+        "T",
+        "I"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Gossip",
+        "Intuition",
+        "Lore (Local)",
+        "Lore (Riverways)",
+        "Perception",
+        "Row",
+        "Swim"
+      ],
+      "talents": [
+        "Fisherman",
+        "Night Vision",
+        "Orientation",
+        "Waterman"
+      ],
+      "trappings": "Hand Weapon (Boat Hook), Storm Lantern and Oil",
+      "status": "Riverguide \u2014 Brass 4",
+      "source": "core"
+    },
+    "Riverwoman": {
+      "advance_characteristics": [
+        "T",
+        "Ag",
+        "Dex"
+      ],
+      "skills": [
+        "Athletics",
+        "Consume Alcohol",
+        "Dodge",
+        "Endurance",
+        "Gossip",
+        "Outdoor Survival",
+        "Row",
+        "Swim"
+      ],
+      "talents": [
+        "Fisherman",
+        "Gregarious",
+        "Strider (Marshes)",
+        "Strong Swimmer"
+      ],
+      "trappings": "Bucket, Fishing Rod and Bait, Leather Leggings",
+      "status": "Greenfish \u2014 Brass 2",
+      "source": "core"
+    },
+    "Riverwarden": {
+      "advance_characteristics": [
+        "BS",
+        "S",
+        "Fel"
+      ],
+      "skills": [
+        "Athletics",
+        "Dodge",
+        "Endurance",
+        "Melee (Basic)",
+        "Perception",
+        "Row",
+        "Sail",
+        "Swim"
+      ],
+      "talents": [
+        "Strong Swimmer",
+        "Strong Back",
+        "Very Strong",
+        "Waterman"
+      ],
+      "trappings": "Hand Weapon (Sword), Leather Jack, Uniform",
+      "status": "River Recruit \u2014 Silver 1",
+      "source": "core"
+    },
+    "Seaman": {
+      "advance_characteristics": [
+        "Ag",
+        "Dex",
+        "Fel"
+      ],
+      "skills": [
+        "Climb",
+        "Consume Alcohol",
+        "Gamble",
+        "Gossip",
+        "Row",
+        "Melee (Fist)",
+        "Sail",
+        "Swim"
+      ],
+      "talents": [
+        "Fisherman",
+        "Strider (Coastal)",
+        "Strong Back",
+        "Strong Swimmer"
+      ],
+      "trappings": "Bucket, Brush, Mop",
+      "status": "Landsman \u2014 Silver 1",
+      "source": "core"
+    },
+    "Smuggler": {
+      "advance_characteristics": [
+        "Ag",
+        "Dex",
+        "WP"
+      ],
+      "skills": [
+        "Athletics",
+        "Bribery",
+        "Cool",
+        "Consume Alcohol",
+        "Row",
+        "Sail",
+        "Stealth (Rural or Urban)",
+        "Swim"
+      ],
+      "talents": [
+        "Criminal",
+        "Fisherman",
+        "Strider (Marshes)",
+        "Strong Back"
+      ],
+      "trappings": "Large Sack, Mask or Scarves, Tinderbox, Storm Lantern and Oil",
+      "status": "River Runner \u2014 Brass 2",
+      "source": "core"
+    },
+    "Stevedore": {
+      "advance_characteristics": [
+        "WS",
+        "T",
+        "I"
+      ],
+      "skills": [
+        "Athletics",
+        "Climb",
+        "Consume Alcohol",
+        "Dodge",
+        "Endurance",
+        "Gossip",
+        "Melee (Basic)",
+        "Swim"
+      ],
+      "talents": [
+        "Dirty Fighting",
+        "Strong Back",
+        "Sturdy",
+        "Very Strong"
+      ],
+      "trappings": "Hand Weapon (Boat Hook), Leather Gloves",
+      "status": "Dockhand \u2014 Brass 3",
+      "source": "core"
+    },
+    "Wrecker": {
+      "advance_characteristics": [
+        "WS",
+        "S",
+        "I"
+      ],
+      "skills": [
+        "Climb",
+        "Consume Alcohol",
+        "Dodge",
+        "Endurance",
+        "Row",
+        "Melee (Basic)",
+        "Outdoor Survival",
+        "Swim"
+      ],
+      "talents": [
+        "Break and Enter",
+        "Criminal",
+        "Fisherman",
+        "Strong Back"
+      ],
+      "trappings": "Crowbar, Large Sack, Leather Gloves",
+      "status": "Cargo Scavenger \u2014 Brass 2",
+      "source": "core"
+    },
+    "Bawd": {
+      "advance_characteristics": [
+        "Ag",
+        "Dex",
+        "Fel"
+      ],
+      "skills": [
+        "Bribery",
+        "Charm",
+        "Consume Alcohol",
+        "Entertain (Any)",
+        "Gamble",
+        "Gossip",
+        "Haggle",
+        "Intimidate"
+      ],
+      "talents": [
+        "Attractive",
+        "Alley Cat",
+        "Blather",
+        "Gregarious"
+      ],
+      "trappings": "Flask of Spirits",
+      "status": "Hustler \u2014 Brass 1",
+      "source": "core"
+    },
+    "Charlatan": {
+      "advance_characteristics": [
+        "I",
+        "Ag",
+        "Fel"
+      ],
+      "skills": [
+        "Bribery",
+        "Consume Alcohol",
+        "Charm",
+        "Entertain (Storytelling)",
+        "Gamble",
+        "Gossip",
+        "Haggle",
+        "Sleight of Hand"
+      ],
+      "talents": [
+        "Cardsharp",
+        "Diceman",
+        "Etiquette (Any)",
+        "Luck"
+      ],
+      "trappings": "Backpack, 2 Sets Clothing, Deck of Cards, Dice",
+      "status": "Swindler \u2014 Brass 3",
+      "source": "core"
+    },
+    "Fence": {
+      "advance_characteristics": [
+        "I",
+        "Ag",
+        "Fel"
+      ],
+      "skills": [
+        "Charm",
+        "Dodge",
+        "Evaluate",
+        "Gamble",
+        "Gossip",
+        "Haggle",
+        "Intuition",
+        "Melee (Basic)"
+      ],
+      "talents": [
+        "Alley Cat",
+        "Cardsharp",
+        "Dealmaker",
+        "Gregarious"
+      ],
+      "trappings": "Hand Weapon, Stolen Goods worth 3d10 Shillings",
+      "status": "Broker \u2014 Silver 1",
+      "source": "core"
+    },
+    "Grave Robber": {
+      "advance_characteristics": [
+        "S",
+        "I",
+        "WP"
+      ],
+      "skills": [
+        "Climb",
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Gossip",
+        "Intuition",
+        "Perception",
+        "Stealth (Any)"
+      ],
+      "talents": [
+        "Alley Cat",
+        "Criminal",
+        "Flee!",
+        "Strong Back"
+      ],
+      "trappings": "Crowbar, Handcart, Hooded Cloak, Tarpaulin",
+      "status": "Body Snatcher \u2014 Brass 2",
+      "source": "core"
+    },
+    "Outlaw": {
+      "advance_characteristics": [
+        "WS",
+        "S",
+        "T"
+      ],
+      "skills": [
+        "Athletics",
+        "Consume Alcohol",
+        "Cool",
+        "Endurance",
+        "Gamble",
+        "Intimidate",
+        "Melee (Basic)",
+        "Outdoor Survival"
+      ],
+      "talents": [
+        "Combat Aware",
+        "Criminal",
+        "Rover",
+        "Flee!"
+      ],
+      "trappings": "Bedroll, Hand Weapon, Leather Jerkin, Tinderbox",
+      "status": "Brigand \u2014 Brass 1",
+      "source": "core"
+    },
+    "Racketeer": {
+      "advance_characteristics": [
+        "WS",
+        "S",
+        "T"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Intimidate",
+        "Lore (Local)",
+        "Melee (Fist)",
+        "Stealth (Urban)"
+      ],
+      "talents": [
+        "Criminal",
+        "Etiquette (Criminals)",
+        "Menacing",
+        "Strike Mighty Blow"
+      ],
+      "trappings": "Brass Knuckles, Leather Jack",
+      "status": "Thug \u2014 Brass 3",
+      "source": "core"
+    },
+    "Thief": {
+      "advance_characteristics": [
+        "I",
+        "Ag",
+        "WP"
+      ],
+      "skills": [
+        "Athletics",
+        "Climb",
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Intuition",
+        "Perception",
+        "Stealth (Urban)"
+      ],
+      "talents": [
+        "Alley Cat",
+        "Criminal",
+        "Etiquette (Criminals)",
+        "Flee!"
+      ],
+      "trappings": "Crowbar, Leather Jerkin, Sack",
+      "status": "Prowler \u2014 Brass 1",
+      "source": "core"
+    },
+    "Witch": {
+      "advance_characteristics": [
+        "WS",
+        "T",
+        "WP"
+      ],
+      "skills": [
+        "Channelling",
+        "Cool",
+        "Endurance",
+        "Gossip",
+        "Intimidate",
+        "Language (Magick)",
+        "Sleight of Hand",
+        "Stealth (Rural)"
+      ],
+      "talents": [
+        "Criminal",
+        "Menacing",
+        "Petty Magic",
+        "Witch!"
+      ],
+      "trappings": "Candles, Chalk, Doll, Pins",
+      "status": "Hexer \u2014 Brass 1",
+      "source": "core"
+    },
+    "Cavalryman": {
+      "advance_characteristics": [
+        "WS",
+        "S",
+        "Ag"
+      ],
+      "skills": [
+        "Animal Care",
+        "Charm Animal",
+        "Endurance",
+        "Language (Battle)",
+        "Melee (Basic)",
+        "Outdoor Survival",
+        "Perception",
+        "Ride (Horse)"
+      ],
+      "talents": [
+        "Combat Aware",
+        "Crack the Whip",
+        "Lightning Reflexes",
+        "Roughrider"
+      ],
+      "trappings": "Hand Weapon, Leather Jack, Riding Horse with Saddle and Tack",
+      "status": "Horseman \u2014 Silver 2",
+      "source": "core"
+    },
+    "Guard": {
+      "advance_characteristics": [
+        "WS",
+        "T",
+        "Ag"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Endurance",
+        "Entertain (Storytelling)",
+        "Gamble",
+        "Gossip",
+        "Intuition",
+        "Melee (Basic)",
+        "Perception"
+      ],
+      "talents": [
+        "Diceman",
+        "Etiquette (Servants)",
+        "Strike to Stun",
+        "Tenacious"
+      ],
+      "trappings": "Hand Weapon, Leather Jerkin, Storm Lantern with Oil",
+      "status": "Sentry \u2014 Silver 1",
+      "source": "core"
+    },
+    "Knight": {
+      "advance_characteristics": [
+        "S",
+        "I",
+        "Ag"
+      ],
+      "skills": [
+        "Athletics",
+        "Animal Care",
+        "Charm Animal",
+        "Heal",
+        "Lore (Heraldry)",
+        "Melee (Cavalry)",
+        "Ride (Horse)",
+        "Trade (Farrier)"
+      ],
+      "talents": [
+        "Etiquette (Any)",
+        "Roughrider",
+        "Sturdy",
+        "Warrior Born"
+      ],
+      "trappings": "Demilance, Leather Jack, Mail Shirt, Riding Horse with Saddle and Tack, Shield, Trade Tools (Farrier)",
+      "status": "Squire \u2014 Silver 3",
+      "source": "core"
+    },
+    "Pit Fighter": {
+      "advance_characteristics": [
+        "WS",
+        "S",
+        "T"
+      ],
+      "skills": [
+        "Athletics",
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Gamble",
+        "Intimidate",
+        "Melee (Any)",
+        "Melee (Fist)"
+      ],
+      "talents": [
+        "Dirty Fighter",
+        "Infighter",
+        "Iron Jaw",
+        "Reversal"
+      ],
+      "trappings": "Bandages, Brass Knuckles, Hand Weapon, Leather Jack",
+      "status": "Pugilist \u2014 Brass 4",
+      "source": "core"
+    },
+    "Protagonist": {
+      "advance_characteristics": [
+        "WS",
+        "T",
+        "Ag"
+      ],
+      "skills": [
+        "Athletics",
+        "Dodge",
+        "Endurance",
+        "Entertain (Taunt)",
+        "Gossip",
+        "Haggle",
+        "Intimidate",
+        "Melee (Any)"
+      ],
+      "talents": [
+        "Infighter",
+        "Dirty Fighting",
+        "Menacing",
+        "Warrior Born"
+      ],
+      "trappings": "Brass Knuckles, Hood or Mask, Leather Jack",
+      "status": "Braggart \u2014 Brass 2",
+      "source": "core"
+    },
+    "Slayer": {
+      "advance_characteristics": [
+        "WS",
+        "S",
+        "WP"
+      ],
+      "skills": [
+        "Consume Alcohol",
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Gamble",
+        "Heal",
+        "Lore (Trolls)",
+        "Melee (Basic)"
+      ],
+      "talents": [
+        "Dual Wielder",
+        "Fearless (Everything)",
+        "Frenzy",
+        "Slayer"
+      ],
+      "trappings": "Axe, Flask of Spirits, Shame, Tattoos",
+      "status": "Troll Slayer \u2014 Brass 2",
+      "source": "core"
+    },
+    "Soldier": {
+      "advance_characteristics": [
+        "WS",
+        "T",
+        "WP"
+      ],
+      "skills": [
+        "Athletics",
+        "Climb",
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Language (Battle)",
+        "Melee (Basic)",
+        "Play (Drum or Fife)"
+      ],
+      "talents": [
+        "Diceman",
+        "Marksman",
+        "Strong Back",
+        "Warrior Born"
+      ],
+      "trappings": "Hand Weapon (Sword), Leather Armour (uniform)",
+      "status": "Recruit \u2014 Silver 1",
+      "source": "core"
+    },
+    "Warrior Priest": {
+      "advance_characteristics": [
+        "WS",
+        "WP",
+        "Fel"
+      ],
+      "skills": [
+        "Cool",
+        "Dodge",
+        "Endurance",
+        "Heal",
+        "Leadership",
+        "Lore (Theology)",
+        "Melee (Any)",
+        "Pray"
+      ],
+      "talents": [
+        "Bless (Any)",
+        "Etiquette (Cultists)",
+        "Read/Write",
+        "Strong-minded"
+      ],
+      "trappings": "Book (Religion), Leather Jerkin, Religious Symbol, Robes, Weapon (Any)",
+      "status": "Novitiate \u2014 Brass 2",
+      "source": "core"
+    }
+  },
+  "merge_policy": "by_career_name"
+}
