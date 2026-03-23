@@ -71,6 +71,14 @@ pytest tests -q
 
 ## What gets randomized (core)
 
+### Species and human “backgrounds” (core rulebook)
+
+The **WFRP 4e Core Rulebook** (p. 24) defines **five** species on the Random Species Table: **Human**, **Halfling**, **Dwarf**, **High Elf**, **Wood Elf**. For **Humans**, the core text is **Humans (Reiklander)** only — there is **no** separate random table for other Imperial provinces or human cultures in that step. Supplements (e.g. *Ubersreik*, *Middenheim*) add other options; you can mirror those as extra data packs.
+
+By the book, **01–90** is Human, so **random generation is ~90% human** even when the table is correct. Non-human species are **included** in `species.json` and the career tables; they are just uncommon rolls.
+
+The core table is **01–90 Human, 91–94 Halfling, 95–98 Dwarf, 99 High Elf, 00 (100) Wood Elf** — see `species_roll` in [`data/packs/core/species.json`](data/packs/core/species.json).
+
 - d100 **species**, d100 **career** (per species table).
 - **Characteristics:** 2d10+20 each, then **species modifiers** (clamped).
 - **Career:** 5 characteristic advances across the career’s three advance stats; **40** skill advances across **8** class skills (**max 10** each); **one** career talent from four options.

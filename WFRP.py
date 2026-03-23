@@ -56,9 +56,9 @@ def race(numeric):
         if 1 <= numeric <= 90:
                 crace="Human (Reiklander)"
         if 91 <= numeric <= 94:
-                crace="Dwarf"
-        if 95 <= numeric <= 98:
                 crace="Halfling"
+        if 95 <= numeric <= 98:
+                crace="Dwarf"
         if 99 == numeric:
                 crace="High Elf"
         if 100 == numeric:

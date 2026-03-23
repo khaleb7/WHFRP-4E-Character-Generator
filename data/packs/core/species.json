@@ -2,11 +2,12 @@
   "merge_policy": "by_species_name",
   "species_roll": [
     {"d100_from": 1, "d100_to": 90, "species": "Human (Reiklander)"},
-    {"d100_from": 91, "d100_to": 94, "species": "Dwarf"},
-    {"d100_from": 95, "d100_to": 98, "species": "Halfling"},
+    {"d100_from": 91, "d100_to": 94, "species": "Halfling"},
+    {"d100_from": 95, "d100_to": 98, "species": "Dwarf"},
     {"d100_from": 99, "d100_to": 99, "species": "High Elf"},
     {"d100_from": 100, "d100_to": 100, "species": "Wood Elf"}
   ],
+  "species_roll_source": "WFRP 4e Core Rulebook p.24 Random Species Table (01-90 Human, 91-94 Halfling, 95-98 Dwarf, 99 High Elf, 00 Wood Elf)",
   "species": {
     "Human (Reiklander)": {
       "modifiers": {"WS": 0, "BS": 0, "S": 0, "T": 0, "I": 0, "Ag": 0, "Dex": 0, "Int": 0, "WP": 0, "Fel": 0},
