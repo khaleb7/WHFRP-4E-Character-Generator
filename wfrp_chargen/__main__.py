@@ -16,6 +16,16 @@ def main() -> int:
     parser.add_argument("--data-dir", default=None, help="Override core pack directory")
     parser.add_argument("--extra-pack", action="append", default=[], help="Additional pack directory to merge")
     parser.add_argument("--json", action="store_true", help="Emit JSON instead of text")
+    parser.add_argument(
+        "--no-portrait",
+        action="store_true",
+        help="Omit NightCafe portrait prompt block (text) or portrait fields (JSON)",
+    )
+    parser.add_argument(
+        "--portrait-only",
+        action="store_true",
+        help="Print only NightCafe positive and negative prompts (no full character sheet)",
+    )
     args = parser.parse_args()
 
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -35,6 +45,12 @@ def main() -> int:
         name = "Unnamed"
 
     ch = generate_character(core, rng=rng, name=name)
+    if args.portrait_only:
+        from wfrp_chargen.portrait_prompt import format_nightcafe_block
+
+        sys.stdout.write(format_nightcafe_block(ch))
+        sys.stdout.write("\n")
+        return 0
     if args.json:
         import json
 
@@ -57,10 +73,13 @@ def main() -> int:
             "notes": ch.notes,
             "talent_deltas": ch.talent_deltas,
         }
+        if not args.no_portrait:
+            payload["nightcafe_portrait_prompt"] = ch.nightcafe_portrait_prompt
+            payload["nightcafe_negative_prompt"] = ch.nightcafe_negative_prompt
         sys.stdout.write(json.dumps(payload, indent=2, ensure_ascii=False))
         sys.stdout.write("\n")
     else:
-        sys.stdout.write(format_character(ch))
+        sys.stdout.write(format_character(ch, include_portrait=not args.no_portrait))
         sys.stdout.write("\n")
     return 0
 

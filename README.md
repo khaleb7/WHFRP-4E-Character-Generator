@@ -16,11 +16,19 @@ python -m wfrp_chargen --seed 42 --json
 
 - **Text sheet (default):** human-readable output with **talent summaries** (paraphrased mechanics; confirm against your rulebook).
 - **`--json`:** machine-readable character (same data).
+- **NightCafe portrait prompts:** each run appends a **positive** and **negative** prompt tailored to species, career, rough build from stats, notable talents, trappings, and grimdark Old World style. Use with [NightCafe](https://creator.nightcafe.studio/) or any SD-compatible tool.
+
+```bash
+python -m wfrp_chargen --portrait-only --seed 1    # prompts only, easy to copy-paste
+python -m wfrp_chargen --no-portrait             # full sheet without portrait block
+```
+
+JSON includes `nightcafe_portrait_prompt` and `nightcafe_negative_prompt` unless `--no-portrait` is set. Customize wording in [`wfrp_chargen/portrait_prompt.py`](wfrp_chargen/portrait_prompt.py).
 
 ## Layout
 
 - [docs/PLAN_WFRP4e_Chargen.md](docs/PLAN_WFRP4e_Chargen.md) — saved product plan for future updates (Cursor-originated; edit in-repo).
-- `wfrp_chargen/` — engine (rolls, species/career resolution, advance allocation, formatting).
+- `wfrp_chargen/` — engine (rolls, species/career resolution, advance allocation, formatting, [`portrait_prompt.py`](wfrp_chargen/portrait_prompt.py) for NightCafe).
 - `data/packs/core/` — core JSON: `species.json`, `careers.json`, `career_tables.json`, `random_talents.json`, `talents_catalog.json`.
 - `scripts/extract_rulebook_text.py` — optional PDF text extraction for comparing tables to JSON.
 - `scripts/build_core_data.py` — rebuild `career_tables.json` (validated d100 coverage).

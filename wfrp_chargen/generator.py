@@ -13,6 +13,7 @@ from wfrp_chargen.skill_rules import (
     primary_characteristic,
     resolve_skill_label,
 )
+from wfrp_chargen.portrait_prompt import nightcafe_portrait_prompt
 from wfrp_chargen.talent_effects import aggregate_talent_modifiers
 
 
@@ -41,6 +42,8 @@ class GeneratedCharacter:
     status: str = ""
     notes: list[str] = field(default_factory=list)
     talent_deltas: dict[str, Any] = field(default_factory=dict)
+    nightcafe_portrait_prompt: str = ""
+    nightcafe_negative_prompt: str = ""
 
 
 def _roll_species(core: CoreData, rng: random.Random) -> str:
@@ -227,7 +230,7 @@ def generate_character(
     trappings = [p.strip() for p in trap_parts if p.strip()]
 
     display_name = name or "Unnamed"
-    return GeneratedCharacter(
+    ch = GeneratedCharacter(
         name=display_name,
         species=species_name,
         career=career_name,
@@ -249,6 +252,10 @@ def generate_character(
         notes=species_notes,
         talent_deltas=_summarize_talent_deltas(talent_deltas),
     )
+    nc = nightcafe_portrait_prompt(ch)
+    ch.nightcafe_portrait_prompt = nc["prompt"]
+    ch.nightcafe_negative_prompt = nc["negative_prompt"]
+    return ch
 
 
 def _summarize_talent_deltas(raw: dict[str, Any]) -> dict[str, Any]:

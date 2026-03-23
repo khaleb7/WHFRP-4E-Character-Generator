@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from wfrp_chargen.dice import bonus_tens
 from wfrp_chargen.generator import CHAR_ORDER, GeneratedCharacter
+from wfrp_chargen.portrait_prompt import format_nightcafe_block
 
 
 def _ascii_console(s: str) -> str:
@@ -13,7 +14,7 @@ def _ascii_console(s: str) -> str:
     )
 
 
-def format_character(ch: GeneratedCharacter) -> str:
+def format_character(ch: GeneratedCharacter, include_portrait: bool = True) -> str:
     lines: list[str] = []
     lines.append("=" * 72)
     lines.append(_ascii_console(f"Name: {ch.name}"))
@@ -70,4 +71,6 @@ def format_character(ch: GeneratedCharacter) -> str:
         lines.append(_ascii_console(f"      Max: {row.get('max')}   Tests: {row.get('tests')}"))
         lines.append(_ascii_console(f"      {row.get('effect')}"))
     lines.append("=" * 72)
+    if include_portrait:
+        lines.append(format_nightcafe_block(ch))
     return "\n".join(lines)
